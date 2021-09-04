@@ -3,13 +3,13 @@ package com.Geekbrains;
 public class Main {
 
     public static void main(String[] args) {
-        Participants[] participants = new Participants[6];
-        participants[0] = new Human("Вася", 12, 2);
-        participants[1] = new Cat("Барс", 10, 1);
-        participants[2] = new Robot("R2", 2);
-        participants[3] = new Human("Витлик", 6, 1);
-        participants[4] = new Cat("Додик", 3, 1);
-        participants[5] = new Robot("TeleGramm", 3);
+        Participants[] participants = {
+                new Human("Вася", 12, 2),
+                new Cat("Барс", 10, 1),
+                new Robot("R2", 2),
+                new Human("Витлик", 6, 1),
+                new Cat("Додик", 3, 1),
+                new Robot("TeleGramm", 3)};
 
         Obstructive[] obstructives = new Obstructive[4];
         obstructives[0] = new RunningTrack(2);
